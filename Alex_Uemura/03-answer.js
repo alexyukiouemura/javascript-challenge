@@ -4,16 +4,16 @@ function ehNumero(x){
 
     for(let i=0; i<string.length; i++){ //verifica se cada dígito é um número 
         if(
-        string.charAt(i)=='0'||
-        string.charAt(i)=='1'||
-        string.charAt(i)=='2'||
-        string.charAt(i)=='3'||
-        string.charAt(i)=='4'||
-        string.charAt(i)=='5'||
-        string.charAt(i)=='6'||
-        string.charAt(i)=='7'||
-        string.charAt(i)=='8'||
-        string.charAt(i)=='9')
+        Number(string.charAt(i))==0||
+        Number(string.charAt(i))==1||
+        Number(string.charAt(i))==2||
+        Number(string.charAt(i))==3||
+        Number(string.charAt(i))==4||
+        Number(string.charAt(i))==5||
+        Number(string.charAt(i))==6||
+        Number(string.charAt(i))==7||
+        Number(string.charAt(i))==8||
+        Number(string.charAt(i))==9)
         {
             count++;
         }
