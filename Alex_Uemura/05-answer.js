@@ -23,4 +23,5 @@ function imprimePares(string){
     return parLetras;
 }
 
-console.log(imprimePares("abcdefgh"));
+console.log(imprimePares("abcde"));
+console.log(imprimePares("abcd"));
